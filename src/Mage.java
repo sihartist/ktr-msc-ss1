@@ -15,4 +15,24 @@ public class Mage extends Character{
 			System.out.println(this.getName() + ": What are you doing? I don't have a "+weapon+"!");
 		}
 	}
+	
+	public void moveRight() {
+		super.moveRight();
+		System.out.println(" furtively.");
+	}
+	
+	public void moveLeft() {
+		super.moveLeft();
+		System.out.println(" furtively.");
+	}
+	
+	public void moveForward() {
+		super.moveBack();
+		System.out.println(" furtively.");
+	}
+	
+	public void moveBack() {
+		super.moveBack();
+		System.out.println(" furtively.");
+	}
 }

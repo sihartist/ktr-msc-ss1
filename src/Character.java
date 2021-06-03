@@ -59,25 +59,25 @@ public abstract class Character implements Movable{
 	}
 	
 	protected void attack(String weapon) {
-		System.out.println(this.getName()+": Rrrrrrr....");
+		System.out.print(this.getName()+": Rrrrrrr....");
 	}
 	
 	public void moveRight() {
-		System.out.println(this.getName() + ": moves right");
+		System.out.print(this.getName() + ": moves right");
 	}
 	
 	public void moveLeft() {
-		System.out.println(this.getName() + ": moves left");
+		System.out.print(this.getName() + ": moves left");
 
 	}
 	
 	public void moveForward() {
-		System.out.println(this.getName() + ": moves forward");
+		System.out.print(this.getName() + ": moves forward");
 
 	}
 	
 	public void moveBack() {
-		System.out.println(this.getName() + ": moves back");
+		System.out.print(this.getName() + ": moves back");
 
 	}
 	

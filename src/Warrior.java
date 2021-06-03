@@ -14,4 +14,24 @@ public class Warrior extends Character{
 			System.out.println(this.getName() + ": What are you doing? I don't have a "+weapon+"!");
 		}
 	}
+	
+	public void moveRight() {
+		super.moveRight();
+		System.out.println(" like a bad boy.");
+	}
+	
+	public void moveLeft() {
+		super.moveLeft();
+		System.out.println(" like a bad boy.");
+	}
+	
+	public void moveForward() {
+		super.moveBack();
+		System.out.println(" like a bad boy.");
+	}
+	
+	public void moveBack() {
+		super.moveBack();
+		System.out.println(" like a bad boy.");
+	}
 }
