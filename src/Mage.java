@@ -35,4 +35,5 @@ public class Mage extends Character{
 		super.moveBack();
 		System.out.println(" furtively.");
 	}
+
 }

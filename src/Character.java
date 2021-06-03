@@ -81,4 +81,8 @@ public abstract class Character implements Movable{
 
 	}
 	
+	final public void unsheathe() {
+		System.out.println(this.getName() + ": Unsheathes his weapon.");
+	}
+	
 }

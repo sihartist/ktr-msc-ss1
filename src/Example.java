@@ -12,6 +12,7 @@ public class Example {
 		mage . moveLeft () ;
 		mage . moveBack () ;
 		mage . moveForward () ;
+		mage.unsheathe();
 	}
 
 }
