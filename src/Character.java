@@ -25,6 +25,15 @@ public abstract class Character {
 		wit = 2;
 	}
 	
+	public Character(String name, String RPGClass, int life, int agility, int strength, int wit){
+		this.name = name;
+		this.RPGClass = RPGClass;
+		this.life = life;
+		this.agility = agility;
+		this.strength = strength;
+		this.wit = wit;
+	}
+	
 	protected String getName() {
 		return this.name;
 	}
